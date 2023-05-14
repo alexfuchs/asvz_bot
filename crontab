@@ -1,0 +1,17 @@
+#**** Cleanup Firefox *****************************
+# every hour at 12 minutes after
+12 */1 * * * pkill firefox
+
+
+# Alex Samstag Yoga
+*/1 * * * fri python3 /home/alex/asvz_bot/yoga-mi2.py "249570" >> /home/alex/asvz_bot/myprog.log 2>&1
+*/1 * * * sat python3 /home/alex/asvz_bot/yoga-mi2.py "249570" >> /home/alex/asvz_bot/myprog.log 2>&1
+
+
+
+# Yara Samstag Yoga
+#*/1 * * * fri python3 /home/alex/asvz_bot/yoga-mi2-yara.py "251099" >> /home/alex/asvz_bot/myprog.log 2>&1
+#*/1 * * * sat python3 /home/alex/asvz_bot/yoga-mi2-yara.py "251099" >> /home/alex/asvz_bot/myprog.log 2>&1
+
+
+#*****the bottomline***********************
